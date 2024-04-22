@@ -41,7 +41,7 @@ const routes: Routes = [
   { path: 'buyer-dash', component: BuyerDashComponent , canActivate: [AuthGuard]},
   
   { path: 'forgot-password', component: ForgotPasswordComponent },
-  {path:'checkout',component:CheckoutComponent ,canActivate: [AuthGuard]},
+  {path:'checkout',component:CheckoutComponent,canActivate: [AuthGuard]},
   {path:'editprofile',component:EditprofileComponent ,canActivate: [AuthGuard]},
   {path:'shop',component:ShopComponent ,canActivate: [AuthGuard]},
   {
