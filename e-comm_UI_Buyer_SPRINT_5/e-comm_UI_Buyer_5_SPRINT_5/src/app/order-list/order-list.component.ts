@@ -17,6 +17,7 @@ export class OrderListComponent {
 
   ngOnInit(): void {
     this.loadBuyer();
+    
    
   }
 
