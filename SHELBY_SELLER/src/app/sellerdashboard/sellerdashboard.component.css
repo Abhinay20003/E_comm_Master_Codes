@@ -46,6 +46,8 @@
   color:black;
 }
 
+
+
 .content table td
 {
   color:black;
@@ -60,4 +62,19 @@
     background-color: #d69c28;
     color: #fff;
     cursor: pointer;
+}
+
+
+
+
+.description-box {
+  max-width: 150px; /* Adjust the width as needed */
+  max-height: 50px; /* Optional, controls height */
+  overflow: hidden; /* Hides overflowed content */
+  text-overflow: ellipsis; /* Displays '...' for overflowed text */
+  white-space: nowrap; /* Prevents text from wrapping */
+  padding: 5px; /* Optional padding for aesthetics */
+  border: 1px solid #ccc; /* Optional border for visibility */
+  border-radius: 4px; /* Optional rounding */
+ 
 }

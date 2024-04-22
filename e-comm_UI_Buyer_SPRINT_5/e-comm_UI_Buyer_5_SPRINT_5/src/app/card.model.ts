@@ -1,4 +1,8 @@
-export interface Card{
-    cardNo:number;
-    cvv:number;
+export class CardDto {
+ 
+ 
+    id!: number;
+    cardNumber!: number;
+    cvv!: number;
 }
+ 
